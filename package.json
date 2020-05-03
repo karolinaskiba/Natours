@@ -1,0 +1,19 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass scss/main.scss css/main.css",
+    "watch:sass": "nodemon -e scss -x \"npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
