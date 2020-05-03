@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node-sass scss/main.scss css/main.css",
-    "watch:sass": "nodemon -e scss -x \"npm run dev\""
+    "watch:sass": "nodemon -e scss -x \"npm run dev\" "
   },
   "author": "",
   "license": "ISC",
