@@ -3,6 +3,24 @@ COLORS:
 
 Light green: #7ed56f
 Medium green: #55c57a
-Dark green: #28b485
+Dark green: #7ed56f
 
 */
+$color-primary:#7ed56f;
+$font-size:30px;
+
+@mixin font($weight) {
+    font-size: $font-size;
+    font-weight: $weight;
+}
+
+p {
+    color: $color-primary;
+    font-size: $font-size;
+    @include font(100);
+
+}
+
+h1 {
+    @include font(900);
+}

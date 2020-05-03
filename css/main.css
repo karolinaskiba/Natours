@@ -3,6 +3,15 @@ COLORS:
 
 Light green: #7ed56f
 Medium green: #55c57a
-Dark green: #28b485
+Dark green: #7ed56f
 
 */
+p {
+  color: #7ed56f;
+  font-size: 30px;
+  font-size: 30px;
+  font-weight: 100; }
+
+h1 {
+  font-size: 30px;
+  font-weight: 900; }
